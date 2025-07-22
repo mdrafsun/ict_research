@@ -16,13 +16,32 @@
 .login-form input {
   padding: 10px;
   font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
 
 .login-form button {
   padding: 10px;
-  font-weight: bold;
   background-color: #2f5438;
-  color: white;
+  color: #fff;
   border: none;
+  border-radius: 6px;
   cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.login-form button:hover {
+  opacity: 0.9;
+}
+
+.login-form a {
+  color: #2f5438;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}   
+.login-form a:hover {
+  text-decoration: underline;
+  color: #1e3a26; /* Optional: darker green on hover */
 }

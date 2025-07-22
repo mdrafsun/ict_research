@@ -38,3 +38,19 @@
 .signup-form button:hover {
   opacity: 0.9;
 }
+
+.signup-form a {
+  color: #2f5438;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.signup-form a:hover {
+  text-decoration: underline;
+  color: #1e3a26; /* Optional: darker green on hover */
+}
+
+
+
+

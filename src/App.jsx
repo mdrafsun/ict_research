@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './pages/Login'; 
 import Signup from './pages/Signup';
 import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer'; // ✅ import footer
+
 
 
 const App = () => {
@@ -16,6 +18,8 @@ const App = () => {
 
         {/* Future: <Route path="/register" element={<Register />} /> */}
       </Routes>
+            <Footer /> {/* ✅ use footer here */}
+
     </Router>
   );
 };
